@@ -1,0 +1,66 @@
+
+
+.app{
+  text-align: center;
+}
+.todobox{
+  width:70%;
+  margin:auto;
+  border:2 px solid red;
+  background-color: bisque;
+  padding:2em;
+  align-items: center;
+}
+
+.todo{
+  width: 70%;
+  margin-top: 30px;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color:white;
+ margin-left: 80px;
+  border-radius: 1rem;
+}
+
+.todo> button{
+  padding:0.3rem 0.5rem;
+  border:none;
+  background: black;
+  color:white;
+  border-radius: 50%;
+  cursor:poiter;
+
+}
+
+
+.todo>p{
+  font-weight:600;
+  padding-left: 30px;
+}
+
+
+.todobox>input{
+
+width:70%;
+height: 50px;
+font-size: 1rem;
+border-radius: 0.4rem;
+border: 1px solid grey;
+margin-top: 1rem;
+outline: none;
+margin-left: 30px;
+}
+
+.todobox>button{
+ padding:0.4rem 0.7rem;
+ margin-left: 0.6rem;
+ border:none;
+ height: 50px;
+ background-color: black;
+ color:white;
+ font-size: 1 rem;
+ font-weight: 700;
+ border-radius: 0.5rem;
+ cursor: pointer;
+}
